@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Post No Bills Jaffna', 'PT Sans', sans-serif;
+}
+
+body {
+    width: 1440px;
+    background-color: #000000;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* Первый блок*/
+
+.head-blocks {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-block {
+    display: flex;
+    align-items: center;
+}
+
+.head-block_phone {
+    padding-right: 15px;
+    height: 16px;
+}
+
+.head-block p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.head-block_login {
+    padding-right: 10px;
+    height: 14px;
+}
+
+
+/* Навигационный блок*/
+
+.main-block li {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
