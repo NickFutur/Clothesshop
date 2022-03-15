@@ -6,12 +6,11 @@
 }
 
 body {
-    width: 1440px;
+    width: 100%;
     background-color: #000000;
 }
 
 .container {
-    width: 1110px;
     margin: 0 auto;
 }
 
@@ -70,4 +69,54 @@ h1 {
     line-height: 18px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+
+/*Блок Porten*/
+
+.name-block {
+    background-image: url(img/Rectangle_3.svg);
+    height: 810px;
+}
+
+
+/*Блок sesson-block*/
+
+.sesson-block {
+    height: 730px;
+}
+
+
+/*Блок collection-block*/
+
+.collection-block {
+    height: 600px;
+}
+
+
+/*Блок receipts-block*/
+
+.receipts-block {
+    height: 1289px;
+}
+
+
+/*Блок brands-block*/
+
+.brands-block {
+    height: 362px;
+}
+
+
+/*Блок first-block*/
+
+.first-block {
+    height: 400px;
+}
+
+
+/*Блок second-block*/
+
+.second-block {
+    height: 50px;
 }
