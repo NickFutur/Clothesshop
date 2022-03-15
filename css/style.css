@@ -61,13 +61,28 @@ h1 {
 
 /* Навигационный блок*/
 
-.main-block li {
+.main-block_navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.main-block_navigation_btn {
+    width: 136px;
+    height: 80px;
+    background: #0F0F0F;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+    color: #969696;
+    border: none;
+}
+
+.main-block_navigation_btn:active {
+    background: #1F1F1F;
     color: #FFFFFF;
 }
 
